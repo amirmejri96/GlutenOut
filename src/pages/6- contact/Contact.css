@@ -1,17 +1,4 @@
-/* ===========================
-Table of contents 
-==============================
-
-1- Left Section
-2- Right Section
-3- Responsive Design
-
-*/
-
-
-
-
-/* 1- Left Section */
+/* Left Section */
 section.contact-us .icon-envelope {
     color: var(--subtitle);
     font-size: 1.8rem;
@@ -76,14 +63,14 @@ section.contact-us .submit:hover {
 }
 
 
-/* 2- Right Section (Animation) */
+/* Right Section (Animation) */
 
 
 
 
 
 
-/* 3- Responsive Design */
+/* Responsive Design */
 @media (max-width:1250px) {
     section.contact-us .animation{
         display: none;
