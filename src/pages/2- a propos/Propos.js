@@ -14,11 +14,11 @@ const Propos = () => {
               La synthèse d'anticorps en excès par le système immunitaire altère la barrière intestinale.
                La maladie peut être découverte à tous les stades de la vie mais est souvent diagnostiquée
                 dans l'enfance ou entre 20 et 40 ans.</p>
-        
+        <img src='../../../assets/disease.jpg' alt='La maladie coelique' />
         <h4>C'est quoi le gluten ?</h4>
         <p>Le gluten est une protéine qui se retrouve dans certaines céréales. Il contribue à la texture des
            produits de boulangerie et autres produits dans lesquels il est utilisé.</p>
-        <p>• Céréales contenant du gluten : <br/>
+        <p>⚠️ Céréales contenant du gluten : <br/>
             S : Seigle <br/>
             A : Avoine régulière (contaminée) <br/>
             B : Blé <br/>

@@ -16,3 +16,10 @@ section .a-propos h4 {
     font-size: 1.5rem;
     margin: 1rem 0;
 }
+
+section .a-propos img {
+    display: flex;
+    width: 50%;
+    margin: 2rem auto;
+    border-radius: 20px;
+}
