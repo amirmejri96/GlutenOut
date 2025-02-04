@@ -56,9 +56,10 @@ section.regime h4 {
     border-top: 1px solid var(--border);
     display: none;
     font-size: 1em;
-    color: black;
-    font-weight: bold;
-    background-color: var(--title);
+    color: var(--title);
+    font-weight: 200;
+    background-color: rgb(71, 70, 70);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .content-row {
