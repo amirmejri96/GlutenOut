@@ -29,16 +29,15 @@ const Regime = () => {
   };
 
   const daata = [
-    { title: "Lait et produits laitiers", content: "• Lait", content1: "• Yaourt", content2: "• Fromage" },
-    { title: "Sucres et sucreries", content: "Sac Simple", content1: "Sac Haut De Gamme" },
-    { title: "Fruits et fruits secs", content: "Nettoyage Gilet Moto", content1: "Casque Moto", content2: "Gant Moto" },
-    { title: "Légumes et légumes secs", content: "Chaise Voiture", content1: "Chaise enfant", content2: "MaxiCosi" },
-    { title: "Boissons", content: "Nettoyage Basket Simple", content1: "Nettoyage Bottine", content2: "Nettoyage Haut De Gamme" },
-    { title: "Légumes verts et tomates en conserve", content: "Sac Simple", content1: "Sac Haut De Gamme" },
-    { title: "Lipides", content: "Nettoyage Gilet Moto", content1: "Casque Moto", content2: "Gant Moto" },
-    { title: "Céréales et dérivés", content: "Chaise Voiture", content1: "Chaise enfant", content2: "MaxiCosi" },
-    { title: "Viandes", content: "Nettoyage Basket Simple", content1: "Nettoyage Bottine", content2: "Nettoyage Haut De Gamme" },
-    { title: "Autres aliments", content: "Sac Simple", content1: "Sac Haut De Gamme" },
+    { title: "Lait et produits laitiers", content: "• Lait : ", content1: "• Yaourt : ", content2: "• Fromage : " },
+    { title: "Sucres et sucreries", content: "• Sucres :", content1: "• Sucreries :" },
+    { title: "Fruits et fruits secs", content: "• Fruits :", content1: "• Fruits secs :"},
+    { title: "Légumes et légumes secs", content: "• Légumes verts :", content1: "• Légumes secs :", content2: "• Autres légumes :" },
+    { title: "Boissons", content: "• Eau :", content1: "• Autres boissons :"},
+    { title: "Lipides", content: "• Tous types d'huile :", content1: "• Autres lipides :"},
+    { title: "Céréales et dérivés", content: "• Céréales :", content1: "• Autres :"},
+    { title: "Viandes", content: "• Les viandes :"},
+    { title: "Autres aliments", content: "• Levure :", content1: "• Autres :" },
   ];
   return (
     <section id='régimes' className='regime'>

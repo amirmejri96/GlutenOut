@@ -57,17 +57,16 @@ section.regime h4 {
     display: none;
     font-size: 1em;
     color: var(--title);
-    font-weight: 200;
     background-color: rgb(71, 70, 70);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .content-row {
-    padding: 5px 0;
+    padding: 15px 0;
 }
 
 .content-title {
     flex: 1;
     text-align: left;
-    font-weight: bold;
+    line-height: 1.3rem;
 }
