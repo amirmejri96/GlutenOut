@@ -29,7 +29,7 @@ const Regime = () => {
   };
 
   const daata = [
-    { title: "Lait et produits laitiers", content: "• Lait : ", content1: "• Yaourt : ", content2: "• Fromage : " },
+    { title: "Lait et produits laitiers", content: "• Lait : Lait aromatisé / Lban aromatisé", content1: "• Yaourt : Délice ( Danettes - Brassées - Activia datte noix ) / Vitalait ( Bifi 0% nature et aromatisé - Bifi céréales agrumes 0% - Vitalio - Brassé ) / Dolce ( Dolce crème chocolat - Dolce duo noisette - Dolce liégeois chocolat - Dolce crème caramel - Dolce crème de noisette ) / Y'AB ( Liégeois - A boire 0% - Mousse au chocolat et vanille - Caramel - Y'ab aux fruits à boire - Baklawa - Yogo - Emmi ) / Natilait ( Yaourt brassé ) / Thelja ( Plaisir bouzza )", content2: "• Fromage : Président ( Kids - Fraidoux ) / Fromy ( Cheddar - Gruyère - Mozarella - Goutella aux fines herbes - Nature ) / Land'ore ( Désir light ) / Délice ( Italiano ) / Kaiser ( Ricotta )" },
     { title: "Sucres et sucreries", content: "• Sucres :", content1: "• Sucreries :" },
     { title: "Fruits et fruits secs", content: "• Fruits :", content1: "• Fruits secs :"},
     { title: "Légumes et légumes secs", content: "• Légumes verts :", content1: "• Légumes secs :", content2: "• Autres légumes :" },
