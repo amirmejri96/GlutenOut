@@ -6,8 +6,8 @@ section.contact-us .icon-envelope {
 }
 
 section.contact-us .title {
-    font-size: 2.1rem;
     color: var(--title);
+    font-size: 2.5rem;
     margin-bottom: 1rem;
 }
 

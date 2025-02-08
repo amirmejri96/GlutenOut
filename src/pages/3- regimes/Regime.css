@@ -70,3 +70,30 @@ section.regime h4 {
     text-align: left;
     line-height: 1.3rem;
 }
+
+section.regime p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+    color: var(--subtitle);
+    margin: 2rem 0;
+}
+
+section.regime .btn {
+    display: flex;
+    justify-content: center;
+}
+
+section.regime button.download {
+    border: 1px solid var(--border);
+    padding: 15px;
+    border-radius: 30px;
+    background-color: var(--bgHeader);
+    transition: 0.3s;
+    color: var(--title);
+    font-size: 1.2rem;
+}
+
+section.regime button.download:hover {
+    background-color: var(--blue);
+}

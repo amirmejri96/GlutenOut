@@ -30,14 +30,13 @@ const Regime = () => {
 
   const daata = [
     { title: "Lait et produits laitiers", content: "• Lait : Lait aromatisé / Lban aromatisé", content1: "• Yaourt : Délice ( Danettes - Brassées - Activia datte noix ) / Vitalait ( Bifi 0% nature et aromatisé - Bifi céréales agrumes 0% - Vitalio - Brassé ) / Dolce ( Dolce crème chocolat - Dolce duo noisette - Dolce liégeois chocolat - Dolce crème caramel - Dolce crème de noisette ) / Y'AB ( Liégeois - A boire 0% - Mousse au chocolat et vanille - Caramel - Y'ab aux fruits à boire - Baklawa - Yogo - Emmi ) / Natilait ( Yaourt brassé ) / Thelja ( Plaisir bouzza )", content2: "• Fromage : Président ( Kids - Fraidoux ) / Fromy ( Cheddar - Gruyère - Mozarella - Goutella aux fines herbes - Nature ) / Land'ore ( Désir light ) / Délice ( Italiano ) / Kaiser ( Ricotta )" },
-    { title: "Sucres et sucreries", content: "• Sucres :", content1: "• Sucreries :" },
-    { title: "Fruits et fruits secs", content: "• Fruits :", content1: "• Fruits secs :"},
-    { title: "Légumes et légumes secs", content: "• Légumes verts :", content1: "• Légumes secs :", content2: "• Autres légumes :" },
-    { title: "Boissons", content: "• Eau :", content1: "• Autres boissons :"},
-    { title: "Lipides", content: "• Tous types d'huile :", content1: "• Autres lipides :"},
-    { title: "Céréales et dérivés", content: "• Céréales :", content1: "• Autres :"},
-    { title: "Viandes", content: "• Les viandes :"},
-    { title: "Autres aliments", content: "• Levure :", content1: "• Autres :" },
+    { title: "Sucres et sucreries", content: "• Sucres : Biscuit / Gateau / Baklawa", content1: "• Sucreries : Vanoise ( Crème chantilly - Flan chocolat - Crème dessert smart chef ) / Bonbon / Falfoul / Chewing gum / Chocolat ( Said aux céréales - Tris croquant - Millenium au lait - Mars - Kit kat - Kinder bueno - Nouty ) / Glace ( Gold - Twister amigo )" },
+    { title: "Fruits et fruits secs", content: "• Fruits : Confiture de fruits en conserve / Jus de fruits en conserve", content1: "• Fruits secs : Noix en conserve / Bonbon rouge en amande ou cacahuète"},
+    { title: "Légumes et légumes secs", content: "• Légumes verts : Légumes en conserve", content1: "• Légumes secs : Légumes secs en conserve / Frites dans des sachets", content2: "• Autres légumes : Chips ( Oops - Max pomme de terre )" },
+    { title: "Boissons", content: "• Autres boissons : Sirop ( Menthe - Grenadine ) / Soda ( Fanta orange / Schweeps )"},
+    { title: "Lipides", content: "• Autres lipides : Moutarde / Mayonnaise ( Remia light - Delicio - Ducros - Jadida ) / Poivres dans des sachets / Sauce salada dans des bouteilles / Margarine ( Jadida )"},
+    { title: "Viandes", content: "• Les viandes : Tous types de salami et jambon / Merguez / Viandes hachés en conserve / Poissons ou thon en conserve"},
+    { title: "Autres aliments", content: "• Levure : Levure gateau / Levure de pain", content1: "• Autres : Sucre vanille ( Vanoise - Smart chef )" },
   ];
   return (
     <section id='régimes' className='regime'>
@@ -112,6 +111,18 @@ const Regime = () => {
             </div>
           </div>
         ))}
+      </div>
+
+      <p>Pour en savoir plus sur les aliments autorisés et interdits, veuillez télécharger ce fichier pdf détaillé : </p>
+      <div className='btn'>
+        <button className="download" onClick={() => {
+          const link = document.createElement("a");
+          link.href = "/assets/Guide du Régime sans Gluten- ATMC 2023.pdf";
+          link.download = "Guide du Régime sans Gluten- ATMC 2023.pdf";
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+        }}>Télécharger le pdf</button>
       </div>
 
     </section>
