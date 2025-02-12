@@ -4,7 +4,7 @@ import './Accueil.css'
 const Accueil = () => {
   return (
     <section id='home' className='accueil'>
-      <h1>La maladie coelique</h1>
+      <h1>La maladie cœliaque</h1>
       <p>Mieux la connaître pour la reconnaître. La maladie cœliaque est une pathologie répandue,
          dans laquelle l'ingestion de gluten provoque une réaction inflammatoire inadéquate,
           avec destruction des villosités intestinales. Cause de diarrhées et malabsorptions.

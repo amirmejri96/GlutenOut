@@ -17,6 +17,15 @@ const Contamination = () => {
         • Préparer les repas sans gluten en premier : Si vous préparez un repas avec et sans gluten en même temps commencez toujours par les plats sans gluten pour éviter que des miettes de gluten ne contaminent pas les aliments sans gluten. <br/> 
         • Cuisinier avec des outils dédiés : par exemple les cuillères en bois, les mixeurs peuvent être difficiles à nettoyer correctement après avoir été en contact avec du gluten.
         </p>
+        <h5>⚠️ Attention aux médicaments !!!!</h5>
+        <div className='image flex'>
+          <img src='../../../assets/doliprane500 png.png' alt='Doliprane_500' />
+          <img src='../../../assets/Doliprane1000 png.png' alt='Doliprane_1000' />
+        </div>
+        <div className='image flex'>
+          <img src='../../../assets/tardyferonB9 png.png' alt='Tardyferon_B9' />
+          <img src='../../../assets/tardyferon80 png.png' alt='Tardyferon_80' />
+        </div>
     </section>
   )
 }

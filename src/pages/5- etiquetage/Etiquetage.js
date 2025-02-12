@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import './Etiquitage.css';
+import './Etiquetage.css';
 
-const Etiquitage = () => {
+const Etiquetage = () => {
   const [showMore, setShowMore] = useState(false);
 
   return (
-    <section className='etiquitage'>
-      <h2>L'étiquitage</h2>
+    <section className='etiquetage'>
+      <h2>L'étiquetage</h2>
       <p className='parag1'>⚠️ Il faut acheter que des produits avec le logo SANS GLUTEN : </p>
       <img src='../../../assets/Sans-gluten.jpg' alt='Sans_gluten' />
       <p className='parag2'>⇨ Si le logo est introuvable il vaut mieux décrypter l'étiquette :</p>
@@ -37,4 +37,4 @@ const Etiquitage = () => {
   );
 };
 
-export default Etiquitage;
+export default Etiquetage;
