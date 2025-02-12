@@ -2,8 +2,9 @@ import Navbar from "./components/navbar/Navbar";
 import Accueil from "./pages/1- accueil/Accueil";
 import Propos from "./pages/2- a propos/Propos";
 import Regime from "./pages/3- regimes/Regime";
-import Contamination from "./pages/4- Contamination/Contamination";
-import Contact from "./pages/5- contact/Contact";
+import Contamination from "./pages/4- contamination/Contamination";
+import Etiquitage from "./pages/5- etiquitage/Etiquitage";
+import Contact from "./pages/7- contact/Contact";
 import Footer from "./components/footer/Footer";
 
 function App() {
@@ -17,6 +18,8 @@ function App() {
       <Regime/>
       <div className="divider" />
       <Contamination/>
+      <div className="divider" />
+      <Etiquitage/>
       <div className="divider" />
       <Contact/>
       <div className="divider" />
