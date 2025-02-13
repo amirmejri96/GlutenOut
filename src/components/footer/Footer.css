@@ -24,3 +24,12 @@ footer p {
     color: var(--subtitle);
     opacity: 0.3;
 }
+
+
+
+@media (max-width:800px) {
+    footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
