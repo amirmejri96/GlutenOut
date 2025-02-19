@@ -2,7 +2,7 @@ import Navbar from "./components/navbar/Navbar";
 import Accueil from "./pages/1- accueil/Accueil";
 import Propos from "./pages/2- a propos/Propos";
 import Regime from "./pages/3- regimes/Regime";
-import Contamination from "./pages/4- contamination/Contamination";
+import Contamination from './pages/4- contamination/Contamination';
 import Etiquetage from "./pages/5- etiquetage/Etiquetage";
 import Contact from "./pages/7- contact/Contact";
 import Footer from "./components/footer/Footer";
