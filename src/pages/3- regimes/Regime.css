@@ -97,3 +97,35 @@ section.regime button.download {
 section.regime button.download:hover {
     background-color: var(--blue);
 }
+
+
+@media (max-width:700px) {
+    section.regime h2 {
+        font-size: 1.8rem;
+    }
+
+    section.regime h4 {
+        font-size: 1.2rem;
+    }
+
+    .accordion-header h3 {
+        font-size: 1rem;
+    }
+
+    .accordion-header .icon {
+        font-size: 0.8rem;
+    }
+
+    .accordion-content {
+        font-size: 0.8rem;
+    }
+
+    section.regime p {
+        font-size: 1rem;
+    }
+
+    section.regime button.download {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+}

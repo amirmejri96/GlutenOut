@@ -105,3 +105,13 @@ section.contact-us .submit:hover {
         align-self: center;
     }
 }
+
+@media (max-width:700px) {
+    section.contact-us .title {
+        font-size: 1.8rem;
+    }
+
+    section.contact-us .sub-title {
+        font-size: 1rem;
+    }
+}

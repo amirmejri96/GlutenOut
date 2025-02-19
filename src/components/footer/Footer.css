@@ -32,4 +32,8 @@ footer p {
         flex-direction: column;
         gap: 2rem;
     }
+
+    footer ul li a {
+        font-size: 0.6rem;
+    } 
 }

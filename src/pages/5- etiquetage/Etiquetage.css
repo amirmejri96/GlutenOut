@@ -55,3 +55,30 @@ section.etiquetage p.parag3 button.read-less:hover {
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+@media (max-width:700px) {
+    section.etiquetage h2 {
+        font-size: 1.8rem;
+    }
+
+    section.etiquetage img {
+        width: 50%;
+    }
+
+    section.etiquetage p.parag1 {
+        font-size: 0.8rem;
+    }
+
+    section.etiquetage h5 {
+        font-size: 1.2rem;
+    }
+
+    section.etiquetage p.parag2 {
+        font-size: 1.2rem;
+    }
+
+    section.etiquetage p.parag3 {
+        font-size: 0.8rem;
+    }
+}

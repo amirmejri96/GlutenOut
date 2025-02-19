@@ -30,4 +30,20 @@ section .a-propos img {
     section {
         flex-direction: column;
     }
+
+    section .a-propos h2 {
+        font-size: 1.8rem;
+    }
+
+    section .a-propos p {
+        font-size: 0.8rem;
+    }
+
+    section .a-propos h4 {
+        font-size: 1.2rem;
+    }
+
+    section .a-propos img {
+        width: 100%;
+    }
 }
