@@ -1,11 +1,13 @@
 section.contamination h2 {
     color: var(--title);
     font-size: 2.5rem;
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     margin-bottom: 1rem;
 }
 
 section.contamination h4 {
-    color: var(--title);
+    color: rgb(196, 175, 128);
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     font-weight: 700;
     font-size: 1.5rem;
     margin: 2rem 0;
@@ -14,13 +16,14 @@ section.contamination h4 {
 section.contamination p {
     color: var(--subtitle);
     line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 section.contamination h5 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--title);
+    color: rgb(196, 175, 128);
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     margin: 1rem 0;
 }
 

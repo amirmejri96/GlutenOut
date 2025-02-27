@@ -9,7 +9,7 @@ footer ul {
 }
 
 footer ul li a {
-    color: var(--title);
+    color: black;
     font-size: 0.9rem;
     font-weight: 700;
     transition: 0.3s;

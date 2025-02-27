@@ -1,11 +1,13 @@
 section.regime h2 {
     color: var(--title);
     font-size: 2.5rem;
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     margin-bottom: 1rem;
 }
 
 section.regime h4 {
-    color: var(--title);
+    color: rgb(196, 175, 128);
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     font-weight: 700;
     font-size: 1.5rem;
     margin: 2rem 0;
@@ -38,13 +40,13 @@ section.regime h4 {
     margin: 0;
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--title);
+    color: white;
 }
 
 .accordion-header .icon {
     font-size: 1.2rem;
     transition: transform 0.3s ease;
-    color: var(--title);
+    color: white;
 }
 
 .accordion-header .icon.rotate {
@@ -56,7 +58,7 @@ section.regime h4 {
     border-top: 1px solid var(--border);
     display: none;
     font-size: 1em;
-    color: var(--title);
+    color: white;
     background-color: rgb(60, 60, 60);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
@@ -72,8 +74,8 @@ section.regime h4 {
 }
 
 section.regime p {
-    font-weight: 300;
-    font-size: 1.2rem;
+    font-weight: 500;
+    font-size: 1.3rem;
     text-align: center;
     color: var(--subtitle);
     margin: 2rem 0;
@@ -90,7 +92,7 @@ section.regime button.download {
     border-radius: 30px;
     background-color: var(--bgHeader);
     transition: 0.3s;
-    color: var(--title);
+    color: white;
     font-size: 1.2rem;
 }
 

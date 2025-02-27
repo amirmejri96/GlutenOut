@@ -1,15 +1,17 @@
 section.etiquetage h2 {
     color: var(--title);
     font-size: 2.5rem;
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     margin-bottom: 1rem;
 }
 
 section.etiquetage img {
     width: 15%;
+    mix-blend-mode: color-burn;
 }
 
 section.etiquetage p.parag1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: var(--subtitle);
     margin-bottom: 1rem;
 }
@@ -17,25 +19,27 @@ section.etiquetage p.parag1 {
 section.etiquetage h5 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: var(--title);
-    text-decoration: underline double var(--blue);
+    color: rgb(196, 175, 128);
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     margin-bottom: 1rem;
 } 
 
 section.etiquetage p.parag2 {
     font-size: 1.5rem;
-    font-weight: 200;
+    font-weight: 500;
     margin-top: 1rem;
+    color: var(--subtitle);
 }
 
 section.etiquetage p.parag3 {
     color: var(--subtitle);
     line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 section.etiquetage p.parag3 button.read-more {
-    color: var(--blue);
+    color: rgb(196, 175, 128);
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     margin-top: 0.8rem;
     transition: 0.3s;
 }
@@ -46,7 +50,8 @@ section.etiquetage p.parag3 button.read-more:hover {
 }
 
 section.etiquetage p.parag3 button.read-less {
-    color: var(--blue);
+    color: rgb(196, 175, 128);
+    text-shadow: 2px 3px 1px rgb(29, 29, 29);
     margin-top: 0.8rem;
     transition: 0.3s;
 }

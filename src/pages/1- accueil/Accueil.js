@@ -7,7 +7,7 @@ const Accueil = () => {
       <h1>La maladie cœliaque</h1>
       <p>Mieux la connaître pour la reconnaître. La maladie cœliaque est une pathologie répandue,
          dans laquelle l'ingestion de gluten provoque une réaction inflammatoire inadéquate,
-          avec destruction des villosités intestinales. Cause de diarrhées et malabsorptions.
+          avec destruction des villosités intestinales.
            Le seul traitement curatif à l'heure actuelle est l'éviction totale du gluten de l'alimentation.</p>
 
       <br/> <br/>

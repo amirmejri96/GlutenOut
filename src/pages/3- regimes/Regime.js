@@ -113,7 +113,7 @@ const Regime = () => {
         ))}
       </div>
 
-      <p>Pour en savoir plus sur les aliments autorisés et interdits, veuillez télécharger ce fichier pdf détaillé : </p>
+      <p>Pour en savoir plus sur les aliments autorisés et interdits, téléchargez ce fichier PDF détaillé : </p>
       <div className='btn'>
         <button className="download" onClick={() => {
           const link = document.createElement("a");
