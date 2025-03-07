@@ -13,8 +13,8 @@ const Navbar = () => {
         <ul className="flex">
           <li><a href="#home">{t('Accueil')}</a></li>
           <li><a href="#about">{t('À propos')}</a></li>
-          <li><a href="#regimes">{t('Régimes')}</a></li>
-          <li><a href="#contact">{t('Contact')}</a></li>
+          <li><a href="#régimes">{t('Régimes')}</a></li>
+          <li><a href="#Contact">{t('Contact')}</a></li>
         </ul>
       </nav>
 
@@ -25,9 +25,9 @@ const Navbar = () => {
               <button onClick={() => setShowModal(false)} className="icon-close" />
             </li>
             <li><a href="#home">{t('Accueil')}</a></li>
-            <li><a href="#about">{t('à propos')}</a></li>
-            <li><a href="#regimes">{t('Régimes')}</a></li>
-            <li><a href="#contact">{t('Contact')}</a></li>
+            <li><a href="#about">{t('À propos')}</a></li>
+            <li><a href="#régimes">{t('Régimes')}</a></li>
+            <li><a href="#Contact">{t('Contact')}</a></li>
           </ul>
         </div>
       )}

@@ -22,7 +22,6 @@ const Etiquetage = () => {
         )}
         {showMore && (
           <>
-            • {t("Fécule de blé")} <br/>
             • {t("gélifiant")} <br/>
             • {t("Liant protéinique")} <br/>
             • {t("Malt d'orge")} <br/>
