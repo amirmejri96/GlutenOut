@@ -23,7 +23,9 @@ function App() {
       <Propos />
     </div>
       <div className="divider" />
-      <Regime/>
+      <div dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
+      <Regime />
+      </div>
       <div className="divider" />
       <div dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
       <Contamination />
