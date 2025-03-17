@@ -170,8 +170,8 @@ import React from 'react'
         { title: "regime.forbidden.sugars", content: "regime.forbidden.sugarsContent", content1: "regime.forbidden.sugarsContent1" },
         { title: "regime.forbidden.fruits", content: "regime.forbidden.fruitsContent", content1: "regime.forbidden.fruitsContent1" },
         { title: "regime.forbidden.vegetables", content: "regime.forbidden.vegetablesContent", content1: "regime.forbidden.vegetablesContent1", content2: "regime.forbidden.vegetablesContent2" },
-        { title: "regime.forbidden.drinks", content: "regime.forbidden.drinksContent", content1: "regime.forbidden.drinksContent1" },
-        { title: "regime.forbidden.lipids", content: "regime.forbidden.lipidsContent", content1: "regime.forbidden.lipidsContent1" },
+        { title: "regime.forbidden.drinks", content: "regime.forbidden.drinksContent"},
+        { title: "regime.forbidden.lipids", content: "regime.forbidden.lipidsContent"},
         { title: "regime.forbidden.meats", content: "regime.forbidden.meatsContent" },
         { title: "regime.forbidden.otherFoods", content: "regime.forbidden.otherFoodsContent", content1: "regime.forbidden.otherFoodsContent1" },
       ];
