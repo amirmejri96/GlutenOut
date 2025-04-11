@@ -7,6 +7,7 @@ import Etiquetage from "./pages/5- etiquetage/Etiquetage";
 import Contact from "./pages/7- contact/Contact";
 import Footer from "./components/footer/Footer";
 import { useTranslation } from 'react-i18next';
+import Repas from "./pages/6- repas/Repas";
 
 function App() {
   const { i18n } = useTranslation();
@@ -33,6 +34,10 @@ function App() {
       <div className="divider" />
       <div dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
       <Etiquetage />
+      </div>
+      <div className="divider" />
+      <div dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>
+      <Repas />
       </div>
       <div className="divider" />
       <div dir={i18n.language === 'ar' ? 'rtl' : 'ltr'}>

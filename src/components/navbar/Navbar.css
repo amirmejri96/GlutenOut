@@ -21,7 +21,7 @@ header nav ul {
 header nav ul li a {
     font-size: 0.9rem;
     font-weight: 700;
-    color:white;
+    color: white;
     transition: 0.3s;
 }
 
@@ -61,16 +61,25 @@ header .icon-close:hover {
 
 header .fixed {
     position: fixed;
-    inset: 0; /* top left right bottom = 0 */
+    inset: 0;
+    /* top left right bottom = 0 */
     z-index: 6;
     background-color: rgba(40, 40, 48, 0.91);
     backdrop-filter: blur(4px);
 }
 
 @keyframes mymove {
-    0% {scale: 0;}
-    60% {scale: 1.1;}
-    100% {scale: 1;}
+    0% {
+        scale: 0;
+    }
+
+    60% {
+        scale: 1.1;
+    }
+
+    100% {
+        scale: 1;
+    }
 }
 
 header .fixed .modal {
@@ -108,7 +117,6 @@ header .fixed .modal li:first-child {
 }
 
 
-
 @media (max-width: 700px) {
     header nav {
         display: none;
@@ -119,4 +127,3 @@ header .fixed .modal li:first-child {
         margin: 2rem 0;
     }
 }
-  
